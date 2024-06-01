@@ -24,7 +24,7 @@ $ docker run -it --rm -v $(pwd):/mnt cmake:3.29.3
 
 ### Build Application
 
-To build the application, please run the following command.
+To build the application, please run the following commands.
 
 ```bash
 $ cmake -B build
@@ -32,6 +32,8 @@ $ cmake --build build --config Release --parallel
 ```
 
 ### Run Application
+
+To run the application, please run the following commands.
 
 ```bash
 $ ./build/src/app/app_to_rectangle_shared_to_shape_shared
